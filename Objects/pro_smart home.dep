@@ -1,0 +1,22 @@
+Dependencies for Project 'pro', Target 'smart home': (DO NOT MODIFY !)
+F (.\cmsis\startup_stm32f40_41xxx.s)(0x573CA273)(--cpu Cortex-M4.fp -g --apcs=interwork -I.\RTE\_smart_home-ID:\keil5_stm32\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-ID:\keil5_stm32\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 526" --pd "STM32F40_41xxx SETA 1"--list .\listings\startup_stm32f40_41xxx.lst --xref -o .\objects\startup_stm32f40_41xxx.o --depend .\objects\startup_stm32f40_41xxx.d)
+F (.\cmsis\system_stm32f4xx.c)(0x573CA271)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\cmsis -I .\cmsis\Include -I .\user\app -I .\user\common -I .\user\drv -I .\user\system-I.\RTE\_smart_home-ID:\keil5_stm32\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-ID:\keil5_stm32\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F40_41xxx-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (cmsis\stm32f4xx.h)(0x573CA273)
+I (.\cmsis\Include\core_cm4.h)(0x573CA1AC)
+I (D:\keil5_stm32\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (.\cmsis\Include\core_cmInstr.h)(0x573CA1AB)
+I (.\cmsis\Include\core_cmFunc.h)(0x573CA1AB)
+I (.\cmsis\Include\core_cmSimd.h)(0x573CA1AB)
+I (cmsis\system_stm32f4xx.h)(0x573CA273)
+F (.\user\app\main.c)(0x5FC373E1)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\cmsis -I .\cmsis\Include -I .\user\app -I .\user\common -I .\user\drv -I .\user\system-I.\RTE\_smart_home-ID:\keil5_stm32\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-ID:\keil5_stm32\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F40_41xxx-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\user\common\common.h)(0x5FC373C5)
+I (.\cmsis\stm32f4xx.h)(0x573CA273)
+I (.\cmsis\Include\core_cm4.h)(0x573CA1AC)
+I (D:\keil5_stm32\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (.\cmsis\Include\core_cmInstr.h)(0x573CA1AB)
+I (.\cmsis\Include\core_cmFunc.h)(0x573CA1AB)
+I (.\cmsis\Include\core_cmSimd.h)(0x573CA1AB)
+I (.\cmsis\system_stm32f4xx.h)(0x573CA273)
+I (.\user\common\io_bit.h)(0x5D4D155D)
+F (.\user\common\io_bit.h)(0x5D4D155D)()
+F (.\user\common\common.h)(0x5FC373C5)()

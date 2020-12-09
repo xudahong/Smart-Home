@@ -7,7 +7,7 @@
 
   <Targets>
     <Target>
-      <TargetName>demo</TargetName>
+      <TargetName>smart home</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
       <pCCUsed>5060750::V5.06 update 6 (build 750)::ARMCC</pCCUsed>
@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>.\cmsis;.\cmsis\Include;.\user\inc</IncludePath>
+              <IncludePath>.\cmsis;.\cmsis\Include;.\user\app;.\user\common;.\user\drv;.\user\system</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -395,12 +395,45 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>user</GroupName>
+          <GroupName>app</GroupName>
           <Files>
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\user\src\main.c</FilePath>
+              <FilePath>.\user\app\main.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>system</GroupName>
+        </Group>
+        <Group>
+          <GroupName>drv</GroupName>
+          <Files>
+            <File>
+              <FileName>drv_led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\user\drv\drv_led.c</FilePath>
+            </File>
+            <File>
+              <FileName>drv_led.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\user\drv\drv_led.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>common</GroupName>
+          <Files>
+            <File>
+              <FileName>io_bit.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\user\common\io_bit.h</FilePath>
+            </File>
+            <File>
+              <FileName>common.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\user\common\common.h</FilePath>
             </File>
           </Files>
         </Group>
