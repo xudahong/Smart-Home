@@ -1,3 +1,6 @@
+#ifndef __COMMON_H__
+#define __COMMON_H__
+
 #include "stm32f4xx.h"		//M4单片机头文件
 
 #include "io_bit.h"
@@ -10,3 +13,6 @@
 #define s32				int
 #define u64				unsigned long long
 #define s64				long long
+
+#endif
+
