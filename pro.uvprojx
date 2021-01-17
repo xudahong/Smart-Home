@@ -134,11 +134,11 @@
             <RunIndependent>0</RunIndependent>
             <UpdateFlashBeforeDebugging>1</UpdateFlashBeforeDebugging>
             <Capability>1</Capability>
-            <DriverSelection>-1</DriverSelection>
+            <DriverSelection>4096</DriverSelection>
           </Flash1>
           <bUseTDR>1</bUseTDR>
           <Flash2>BIN\UL2CM3.DLL</Flash2>
-          <Flash3></Flash3>
+          <Flash3>"" ()</Flash3>
           <Flash4></Flash4>
           <pFcarmOut></pFcarmOut>
           <pFcarmGrp></pFcarmGrp>
@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>.\cmsis;.\cmsis\Include;.\user\app;.\user\common;.\user\drv;.\user\system</IncludePath>
+              <IncludePath>.\cmsis;.\cmsis\Include;.\user\app;.\user\common;.\user\hal;.\user\system</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -402,23 +402,25 @@
               <FileType>1</FileType>
               <FilePath>.\user\app\main.c</FilePath>
             </File>
+            <File>
+              <FileName>readme.txt</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\readme.txt</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
           <GroupName>system</GroupName>
-        </Group>
-        <Group>
-          <GroupName>drv</GroupName>
           <Files>
             <File>
-              <FileName>drv_led.c</FileName>
+              <FileName>rled.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\user\drv\drv_led.c</FilePath>
+              <FilePath>.\user\system\rled.c</FilePath>
             </File>
             <File>
-              <FileName>drv_led.h</FileName>
+              <FileName>rled.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\user\drv\drv_led.h</FilePath>
+              <FilePath>.\user\system\rled.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -434,6 +436,41 @@
               <FileName>common.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\user\common\common.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>hal</GroupName>
+          <Files>
+            <File>
+              <FileName>hal_led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\user\hal\hal_led.c</FilePath>
+            </File>
+            <File>
+              <FileName>hal_led.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\user\hal\hal_led.h</FilePath>
+            </File>
+            <File>
+              <FileName>hal_init.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\user\hal\hal_init.c</FilePath>
+            </File>
+            <File>
+              <FileName>hal_init.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\user\hal\hal_init.h</FilePath>
+            </File>
+            <File>
+              <FileName>hal_speaker.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\user\hal\hal_speaker.c</FilePath>
+            </File>
+            <File>
+              <FileName>hal_speaker.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\user\hal\hal_speaker.h</FilePath>
             </File>
           </Files>
         </Group>

@@ -2,6 +2,10 @@
 ".\objects\startup_stm32f40_41xxx.o"
 ".\objects\system_stm32f4xx.o"
 ".\objects\main.o"
+".\objects\rled.o"
+".\objects\hal_led.o"
+".\objects\hal_init.o"
+".\objects\hal_speaker.o"
 --strict --scatter ".\Objects\pro.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

@@ -1,0 +1,12 @@
+.\objects\hal_init.o: user\hal\hal_init.c
+.\objects\hal_init.o: user\hal\hal_init.h
+.\objects\hal_init.o: .\user\common\common.h
+.\objects\hal_init.o: .\cmsis\stm32f4xx.h
+.\objects\hal_init.o: .\cmsis\Include\core_cm4.h
+.\objects\hal_init.o: D:\keil5_stm32\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\hal_init.o: .\cmsis\Include\core_cmInstr.h
+.\objects\hal_init.o: .\cmsis\Include\core_cmFunc.h
+.\objects\hal_init.o: .\cmsis\Include\core_cmSimd.h
+.\objects\hal_init.o: .\cmsis\system_stm32f4xx.h
+.\objects\hal_init.o: .\user\common\io_bit.h
+.\objects\hal_init.o: user\hal\hal_led.h

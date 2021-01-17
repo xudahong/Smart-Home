@@ -8,3 +8,6 @@
 .\objects\main.o: .\cmsis\Include\core_cmSimd.h
 .\objects\main.o: .\cmsis\system_stm32f4xx.h
 .\objects\main.o: .\user\common\io_bit.h
+.\objects\main.o: .\user\hal\hal_init.h
+.\objects\main.o: .\user\hal\hal_led.h
+.\objects\main.o: .\user\system\rled.h
